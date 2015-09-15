@@ -1,6 +1,7 @@
 #lang racket
 
 (define (square x) (* x x))
+
 (define (largest x y)
   (if (> x y) x y))
 
