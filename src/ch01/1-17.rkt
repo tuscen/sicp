@@ -12,4 +12,5 @@
         ((even? b) (fast-mult (double a)
                               (halve b)))
         (else (+ a
-                 (fast-mult a (- b 1))))))
+                 (fast-mult a
+                            (- b 1))))))
